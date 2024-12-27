@@ -1,0 +1,47 @@
+idea_refinement_task:
+  description: >
+    Refine the initial app idea into a clear and polished concept.
+    Focus on identifying the problem it solves, target audience, and key features.
+  expected_output: >
+    A markdown document outlining the app’s purpose, target users, and core features.
+
+prd_creation_task:
+  description: >
+    Develop a detailed Product Requirements Document (PRD).
+    Include goals, feature requirements, user personas, and acceptance criteria.
+  expected_output: >
+    A comprehensive PRD document formatted as Markdown.
+
+tech_stack_task:
+  description: >
+    Propose a technical stack suitable for the app, including frontend, backend, and hosting.
+    Highlight third-party tools and APIs for integration.
+  expected_output: >
+    A tech stack recommendation document in Markdown format.
+
+file_structure_task:
+  description: >
+    Design a folder and file structure based on the selected tech stack.
+    Focus on scalability and organization.
+  expected_output: >
+    A markdown file with a hierarchical tree diagram of the file structure.
+
+rules_file_task:
+  description: >
+    Create a !rules file to guide no-code tools in development workflows.
+    Include rules for naming conventions, workflows, and validations.
+  expected_output: >
+    A rules file with structured logic for no-code tools.
+
+system_prompt_task:
+  description: >
+    Develop a system prompt document for AI agents, including modular prompts and examples.
+  expected_output: >
+    A markdown document with AI prompts and usage scenarios.
+
+application_flow_task:
+  description: >
+    Create a visual or textual flowchart of user interactions and logic flows.
+    Cover onboarding, navigation, and key actions.
+  expected_output: >
+    A flowchart diagram or detailed description of the app’s user flows.
